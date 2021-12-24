@@ -1,4 +1,4 @@
-name: Build debian packages (amd64)
+name: Build debian packages (arm64)
 
 on:
   push:
