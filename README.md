@@ -1,6 +1,7 @@
 # mozjpeg の deb パッケージ (Link-U 公開リポジトリ)
 
-![Build debian packages](https://github.com/link-u/dpkg_mozjpeg/workflows/Build%20debian%20packages/badge.svg)
+[![Build debian packages (amd64)](https://github.com/link-u/dpkg_mozjpeg/actions/workflows/build-debian-package_arm64.yml/badge.svg)](https://github.com/link-u/dpkg_mozjpeg/actions/workflows/build-debian-package_arm64.yml)
+  [![Build debian packages (amd64)](https://github.com/link-u/dpkg_mozjpeg/actions/workflows/build-debian-package_amd64.yml/badge.svg)](https://github.com/link-u/dpkg_mozjpeg/actions/workflows/build-debian-package_amd64.yml)
 
 # 概要
 
