@@ -21,7 +21,7 @@ jobs:
     - name: Set up QEMU
       uses: docker/setup-qemu-action@v1
     - run: |
-        docker run --rm -i -v $PWD:/workspace arm32v7/ubuntu:20.04 bash <<'EOF'
+        docker run --rm -i -v $PWD:/workspace arm64v8/ubuntu:20.04 bash <<'EOF'
         set -xeu
         cd /workspace
         uname -a
@@ -50,7 +50,7 @@ jobs:
     - name: Set up QEMU
       uses: docker/setup-qemu-action@v1
     - run: |
-        docker run --rm -i -v $PWD:/workspace arm32v7/ubuntu:20.04 bash <<'EOF'
+        docker run --rm -i -v $PWD:/workspace arm64v8/ubuntu:20.04 bash <<'EOF'
         set -xeu
         cd /workspace
         uname -a
