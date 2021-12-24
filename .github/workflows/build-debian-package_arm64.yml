@@ -26,7 +26,7 @@ jobs:
         set -xeu
         cd /workspace
         uname -a
-        apt-get update
+        export DEBIAN_FRONTEND=noninteractive
         bash scripts/all.sh
         EOF
     - name: Upload result
@@ -54,7 +54,7 @@ jobs:
         set -xeu
         cd /workspace
         uname -a
-        apt-get update
+        export DEBIAN_FRONTEND=noninteractive
         bash scripts/test.sh
         EOF
 
