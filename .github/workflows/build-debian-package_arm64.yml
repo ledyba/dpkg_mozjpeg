@@ -1,5 +1,6 @@
 # References
 # - https://scrapbox.io/nwtgck/GitHub_Actions%E4%B8%8A%E3%81%A7ARM%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8BDocker%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E6%96%B9%E6%B3%95
+# - https://github.com/uraimo/run-on-arch-action
 
 name: Build debian packages (arm64)
 
