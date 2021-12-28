@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -eux
+export DEBIAN_FRONTEND=noninteractive
 
 ## git リポジトリ上の scripts ディレクトリのパスを取得
 ROOT_DIR="$(readlink -f "$(cd "$(dirname "$0")" && cd .. && pwd)")"

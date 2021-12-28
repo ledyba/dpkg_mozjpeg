@@ -1,6 +1,7 @@
 #! /bin/bash
 
 set -eu
+export DEBIAN_FRONTEND=noninteractive
 
 ## git リポジトリ上の root のパスを取得
 root_dir=$(readlink -f $(cd $(dirname $0)/.. && pwd))
