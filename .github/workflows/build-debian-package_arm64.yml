@@ -36,7 +36,7 @@ jobs:
         bash scripts/all.sh
         EOF
     - name: Upload result
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: ${{ matrix.codename }}-arm64
         path: |
