@@ -26,7 +26,7 @@ jobs:
         submodules: 'recursive'
         fetch-depth: 0
     - name: Set up QEMU
-      uses: docker/setup-qemu-action@v1
+      uses: docker/setup-qemu-action@v2
     - name: Build debian package
       run: |
         docker run --rm -i -v $PWD:/workspace "arm64v8/ubuntu:${{ matrix.codename }}" bash <<'EOF'
@@ -57,7 +57,7 @@ jobs:
         name: ${{ matrix.codename }}-arm64
         path: artifact
     - name: Set up QEMU
-      uses: docker/setup-qemu-action@v1
+      uses: docker/setup-qemu-action@v2
     - run: |
         docker run --rm -i -v $PWD:/workspace "arm64v8/ubuntu:${{ matrix.codename }}" bash <<'EOF'
         set -xeu
